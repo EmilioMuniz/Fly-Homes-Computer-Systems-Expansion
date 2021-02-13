@@ -24,35 +24,34 @@ Specific details:
       - OS
        - weekly 
       - SOP
-      
-Windows Server 2016 Base with Containers (AWS EC2)
-For executives
-SOP of secure access
-Establish SOP for backup of Windows Server 
-This is not in the client specs, but we feel it is good practice
+- Windows Server 2016 Base with Containers (AWS EC2)
+  - For executives
+  - SOP of secure access
+  - Establish SOP for backup of Windows Server 
+    - This is not in the client specs, but we feel it is good practice
 
 Tools used: 
-Scripting
-PowerShell
-Bash
-VS Code
-GitHub
-Cloud:
-AWS EC2
-Operating Systems
-Linux
-xCAT
-Spacewalk
-Windows 10
-Windows Autopilot
-Windows Task Scheduler
-RDP
-Windows Server
-Project Management, communication, and documentation:
-Google applications
-Trello
-Slack
-GitHub
-Data Preservation:
-Veeam
-Windows System Restore
+- Scripting
+  - PowerShell
+  - Bash
+  - VS Code
+  - GitHub
+- Cloud:
+  - AWS EC2
+- Operating Systems
+  - Linux
+    - xCAT
+    - Spacewalk
+  - Windows 10
+    - Windows Autopilot
+    - Windows Task Scheduler
+    - RDP
+   - Windows Server
+- Project Management, communication, and documentation:
+  - Google applications
+  - Trello
+  - Slack
+  - GitHub
+- Data Preservation:
+  - Veeam
+  - Windows System Restore
