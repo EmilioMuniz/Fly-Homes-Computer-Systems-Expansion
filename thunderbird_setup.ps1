@@ -13,3 +13,5 @@ Start-Sleep -Seconds 60
 # NOTE: 'username' NEEDS TO BE CHANGED TO MATCH ENVIRONMENT
 cd C:\Users\username\Downloads
 Start-Process '.\Thunderbird_Setup_78.7.1.exe' "/S"
+
+# End
