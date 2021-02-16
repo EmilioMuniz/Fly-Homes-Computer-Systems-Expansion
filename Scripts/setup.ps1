@@ -47,8 +47,8 @@ function Setup-RDP {
 
 # Main
 
-$Usernmae = Read-Host "Username for new user:"
-$Password = Read-Host "Password for new user:" -AsSecureString
+$Usernmae = Read-Host "Username for new user"
+$Password = Read-Host "Password for new user" -AsSecureString
 
 Setup-User
 Setup-Thunderbird
