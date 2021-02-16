@@ -10,8 +10,7 @@
 
 # Username and password for new user
 $Username = ""
-$Password = ""
-
+$Password = ConvertTo-SecureString "flyhomes123" -AsPlainText -Force
 
 
 # Functions
@@ -48,7 +47,6 @@ function Setup-RDP {
 # Main
 
 $Username = Read-Host "Username for new user"
-$Password = Read-Host "Password for new user" -AsSecureString
 
 Setup-User
 Setup-Thunderbird
