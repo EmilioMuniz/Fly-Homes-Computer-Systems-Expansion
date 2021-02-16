@@ -2,6 +2,7 @@
 # Author Name: Carsten Rossen
 # Date of Latest Revision: 2/16/21
 # Purpose: Downloads and installs Mozilla Thunderbird with default settings using PowerShell.
+# NOTE: If running scripts is disabled on system, type 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
 
 # Main
 
