@@ -10,5 +10,6 @@ start microsoft-edge:https://en.softonic.com/download/mozilla-thunderbird/window
 Start-Sleep -Seconds 60
 
 # Silently installs Thunderbird with default settings
-cd C:\Users\first\Downloads
+# NOTE: 'username' NEEDS TO BE CHANGED TO MATCH ENVIRONMENT
+cd C:\Users\username\Downloads
 Start-Process '.\Thunderbird_Setup_78.7.1.exe' "/S"
