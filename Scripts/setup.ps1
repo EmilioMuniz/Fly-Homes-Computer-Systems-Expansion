@@ -2,6 +2,7 @@
 # Author Name: Carsten Rossen
 # Date of Latest Revision: 2/16/21
 # Purpose: Installs Thunderbird, enables RDP connectivity, and creates a new local user account.
+# NOTE: If running scripts is disabled on system, type 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
 
 
 
