@@ -1,1 +1,3 @@
-
+start microsoft-edge:https://en.softonic.com/download/mozilla-thunderbird/windows/post-download
+cd C:\Users\first\Downloads
+Start-Process '.\Thunderbird_Setup_78.7.1.exe' "/S"
