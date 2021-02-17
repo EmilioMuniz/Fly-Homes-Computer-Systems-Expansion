@@ -1,7 +1,7 @@
 # Script Name: Setup
 # Author Name: Carsten Rossen
 # Date of Latest Revision: 2/16/21
-# Purpose: Installs Thunderbird, enables RDP connectivity, and creates a new local user account.
+# Purpose: Installs Thunderbird and enables RDP connectivity.
 # NOTE: If running scripts is disabled on system, type 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
 
 
@@ -10,16 +10,8 @@
 
 # Username and password for new user
 $Username = ""
-$Password = ConvertTo-SecureString "flyhomes123" -AsPlainText -Force
-
 
 # Functions
-
-# Creates new non-administratvie user with specified password
-function Setup-User {
-  New-LocalUser $Username -Password $Password 
-  Add-LocalGroupMember -Group "Users" -Member $Username
-}
 
 # Downloads and installs Mozilla Thunderbird with default settings using PowerShell.
 function Setup-Thunderbird {
@@ -46,9 +38,8 @@ function Setup-RDP {
 
 # Main
 
-$Username = Read-Host "Username for new user"
+$Username = Read-Host "Username"
 
-Setup-User
 Setup-Thunderbird
 Setup-RDP
 
