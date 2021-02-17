@@ -10,7 +10,7 @@ $Username = ""
 
 # Main
 
-# PLEASE CHANGE 'username' TO MATCH LOCAL USERNAME
+$Username = Read-Host "Username"
 cd C:\Users\$Username\Downloads
 
 # Starts download with Microsoft Edge and waits 60 seconds for download to complete
