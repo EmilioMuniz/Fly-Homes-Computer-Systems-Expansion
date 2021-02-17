@@ -4,10 +4,14 @@
 # Purpose: Downloads and installs Mozilla Thunderbird with default settings using PowerShell.
 # NOTE: If running scripts is disabled on system, type 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
 
+# Variables
+$Password = ConvertTo-SecureString "flyhomes123" -AsPlainText -Force
+$Username = ""
+
 # Main
 
 # PLEASE CHANGE 'username' TO MATCH LOCAL USERNAME
-cd C:\Users\username\Downloads
+cd C:\Users\$Username\Downloads
 
 # Starts download with Microsoft Edge and waits 60 seconds for download to complete
 # Starts the download twice in case it doesn't start the first time
