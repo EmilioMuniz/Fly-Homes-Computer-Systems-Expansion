@@ -11,6 +11,8 @@
 # Username and password for new user
 $Username = ""
 
+
+
 # Functions
 
 # Downloads and installs Mozilla Thunderbird with default settings using PowerShell.
