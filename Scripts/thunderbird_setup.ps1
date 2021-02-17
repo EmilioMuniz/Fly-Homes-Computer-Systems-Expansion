@@ -5,7 +5,6 @@
 # NOTE: If running scripts is disabled on system, type 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
 
 # Variables
-$Password = ConvertTo-SecureString "flyhomes123" -AsPlainText -Force
 $Username = ""
 
 # Main
