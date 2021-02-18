@@ -2,6 +2,7 @@
 # Author Name: Carsten Rossen
 # Date of Latest Revision: 2/16/21
 # Purpose: Creates a new local user
+# NOTE: If running scripts is disabled on system, type 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted'
 
 # Variables
 $Password = ConvertTo-SecureString "flyhomes123" -AsPlainText -Force
