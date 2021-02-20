@@ -4,7 +4,7 @@
 # Purpose: Persistently mounts a Samba shared folder hosted by the Linux File Server as L:\
 
 # See: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/new-psdrive?view=powershell-7.1
-#
+# My script is basically reformated from one of the examples in this documentation.
 #
 #
 # WARNING: ***THIS SCRIPT ONLY SERVES ITS PURPOSE IF IT IS RUN AS USER WITHOUT ELEVATED PRIVILEGES***
